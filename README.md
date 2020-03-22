@@ -93,6 +93,11 @@ Push vers github
 
 Relier votre git local à votre repository github (à faire une seule fois):
 
+S'Authentifier sur Git via le login / email : 
+
+    git config --global user.name "Votre Nom Ici"
+    git config --global user.email "Votre Email Ici"
+
 Créer un repository sur votre compte github, puis placez vous dans votre dossier local contenant votre git et votre projet local. Puis entrez la commande suivante:
 
     git remote add origin https://github.com/nomutilisateur/MonProjet.git
