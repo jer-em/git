@@ -125,3 +125,13 @@ Pour récupérer les dernières modifications de votre repository distant (sur g
 Placez vous dans votre repository local
 
     git pull origin master
+    
+Pour remettre à zéro un fichier en local
+
+    git checkout -- <filename>
+
+Pour réinitialiser un dossier en local (n'oubliez pas de faire un git add . après utilisation)
+
+    git fetch origin
+    git reset --hard origin/master
+   
