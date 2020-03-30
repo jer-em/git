@@ -26,6 +26,10 @@ Ou pour ajouter tous les fichiers du répertoire:
 
     git add .
 
+Mettre à jour les informations dont dispose votre repo local à propos du repo distant
+
+    git fetch
+
 Afficher le statut de votre git.
 
     git status
